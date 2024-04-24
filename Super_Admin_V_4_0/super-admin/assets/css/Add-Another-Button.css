@@ -1,0 +1,19 @@
+.edit-icon {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.add-another-btn {
+  color: var(--bs-btn-border-color);
+  font-size: 14px;
+  line-height: 1.8em;
+  background: var(--bs-btn-bg);
+  border: 2px solid var(--bs-btn-color) ;
+}
+
+.add-another-btn:hover {
+  background: var(--bs-blue);
+  color: var(--bs-btn-active-color);
+  border: 2px solid var(--bs-white) ;
+}
+

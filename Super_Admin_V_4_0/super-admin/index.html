@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4--Login-form-Page-BS4.css">
+    <link rel="stylesheet" href="assets/css/Add-Another-Button.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/Projects-Grid-images.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="width: 100%;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-gas-pump" style="transform: scale(1);"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Starubigaz</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="inventory.html"><i class="fas fa-database"></i><span>Inventory</span></a><a class="nav-link" href="suppliers.html"><i class="fas fa-truck"></i><span>Suppliers</span></a><a class="nav-link" href="branches.html"><i class="fas fa-warehouse"></i><span>Branches</span></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="branch_owners.html"><i class="fas fa-user-tie"></i><span>Branch Admins</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top" style="margin: 0px;padding: 0px;">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                    <form class="me-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">Sev Constantino</span><img class="border rounded-circle img-profile" src="assets/img/avatars/avatar1.jpeg"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="../profile.html"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex">
+                            <h3 class="text-dark mb-0" style="display: inline;">Dashboard /&nbsp;&nbsp;</h3><select class="d-xxl-flex justify-content-xxl-end" style="color: var(--bs-blue);border-color: var(--bs-blue);border-radius: 2px;font-size: 16px;padding: 4px;padding-right: 24px;">
+                                <option value="0" selected="">Tandang Sora Branch</option>
+                                <option value="0">Mapagkalinga Branch</option>
+                                <option value="0">E. Rodriguez Branch</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 float-end d-xxl-flex justify-content-xxl-end"><a class="btn btn-success d-xxl-flex justify-content-xxl-end btn-icon-split" role="button" style="background: rgba(255,255,255,0.42);border-style: solid;border-color: rgb(230,230,230);" href="error_pages/error_print.html"><span class="text-light icon" style="background: rgb(230,230,230);"><i class="fas fa-print" style="color: rgb(106,106,106);"></i></span><span class="d-xxl-flex text" style="color: rgb(106,106,106);">Print Reports</span></a></div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="d-flex d-sm-flex justify-content-between align-items-center justify-content-xxl-start mb-4"></div>
+                    <div class="row">
+                        <div class="col col-9">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <div class="d-flex">
+                                        <h6 class="text-primary fw-bold m-0" style="color: rgb(28,200,138);">Revenue</h6>
+                                        <h6 class="text-primary fw-bold m-0">&nbsp; and&nbsp;&nbsp;</h6>
+                                        <h6 class="text-primary fw-bold m-0" style="color: rgb(255,164,113);">Transaction</h6>
+                                        <h6 class="text-primary fw-bold m-0" style="margin-left: 36px;padding-left: 18px;">( Weekly )</h6>
+                                    </div>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
+                                        <div class="dropdown-menu dropdown-menu-end shadow animated--fade-in">
+                                            <h6 class="dropdown-header text-center"><strong>Select time:</strong></h6><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a>
+                                            <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Overall</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div style="--bs-success: #1cc88a;--bs-success-rgb: 28,200,138;"><canvas data-bss-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Gross Profit&quot;,&quot;backgroundColor&quot;:&quot;#1cc88a&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;100&quot;,&quot;70&quot;,&quot;300&quot;,&quot;230&quot;,&quot;140&quot;,&quot;430&quot;,&quot;100&quot;,&quot;100&quot;,&quot;200&quot;,&quot;300&quot;,&quot;200&quot;,&quot;100&quot;]},{&quot;label&quot;:&quot;Net Profit&quot;,&quot;backgroundColor&quot;:&quot;#ffa471&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;50&quot;,&quot;20&quot;,&quot;81&quot;,&quot;100&quot;,&quot;70&quot;,&quot;300&quot;,&quot;50&quot;,&quot;50&quot;,&quot;100&quot;,&quot;150&quot;,&quot;100&quot;,&quot;40&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}],&quot;yAxes&quot;:[{&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}]}}}"></canvas></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <div>
+                                <div class="card mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0" style="color: var(--bs-blue);">Revenue and Transactions</h6>
+                                    </div>
+                                    <div class="card-body" style="display: grid;">
+                                        <div style="display: inline-flex;">
+                                            <p class="m-0" style="font-weight: bold;color: rgb(28,200,138);font-size: 20px;">Revenue :&nbsp;</p>
+                                            <p class="text-dark d-xxl-flex align-items-xxl-center m-0" style="font-size: 20px;">P100.00</p>
+                                        </div>
+                                        <div style="display: inline-flex;">
+                                            <p class="m-0" style="font-weight: bold;color: rgb(255,164,113);font-size: 20px;">Transactions :&nbsp;</p>
+                                            <p class="text-dark d-xxl-flex align-items-xxl-center m-0" style="font-size: 20px;">5,405</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow border-start-warning py-2">
+                                <div class="card-body" style="padding-top: 5px;">
+                                    <div style="padding-top: 10px;transform-style: preserve-3d;padding-bottom: 10px;"><canvas data-bss-chart="{&quot;type&quot;:&quot;pie&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Revenue&quot;,&quot;Transactions&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:[&quot;rgb(28,200,138)&quot;,&quot;rgb(255,164,113)&quot;],&quot;borderColor&quot;:[&quot;#ffffff&quot;,&quot;#ffffff&quot;],&quot;data&quot;:[&quot;1000&quot;,&quot;300&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;}}}"></canvas></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card shadow">
+                                <div class="card-header py-3">
+                                    <p class="text-primary m-0 fw-bold">Available Stocks</p>
+                                </div>
+                                <div class="card-body">
+                                    <div style="overflow: scroll;overflow-x: hidden;height: 40vh;">
+                                        <div class="table-responsive table mt-2" id="dataTable-6" role="grid" aria-describedby="dataTable_info">
+                                            <table class="table my-0" id="dataTable">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Barcode</th>
+                                                        <th>Product</th>
+                                                        <th>Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>0s2</td>
+                                                        <td>Diesel</td>
+                                                        <td style="color: var(--bs-green);">high</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>0s3</td>
+                                                        <td>XSC</td>
+                                                        <td style="color: var(--bs-red);">low</td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr></tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-md-8">
+                            <hr style="margin-bottom: 0px;">
+                            <div style="--bs-success: #1cc88a;--bs-success-rgb: 28,200,138;"><canvas data-bss-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Mega Blaze&quot;,&quot;Premium G&quot;,&quot;Unleaded G&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Stock Count&quot;,&quot;backgroundColor&quot;:&quot;#1cc88a&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;100&quot;,&quot;70&quot;,&quot;300&quot;,&quot;230&quot;,&quot;140&quot;,&quot;430&quot;,&quot;100&quot;,&quot;100&quot;,&quot;200&quot;,&quot;300&quot;,&quot;200&quot;,&quot;100&quot;]},{&quot;label&quot;:&quot;Limit&quot;,&quot;backgroundColor&quot;:&quot;#ff7171&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;50&quot;,&quot;20&quot;,&quot;81&quot;,&quot;100&quot;,&quot;70&quot;,&quot;300&quot;,&quot;50&quot;,&quot;50&quot;,&quot;100&quot;,&quot;150&quot;,&quot;100&quot;,&quot;40&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}],&quot;yAxes&quot;:[{&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}]}}}"></canvas></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row" style="margin-top: 28px;">
+                        <div class="col">
+                            <div class="card shadow">
+                                <div class="card-header py-3">
+                                    <div>
+                                        <p class="text-primary d-inline m-0 fw-bold" style="display: inline;">Top 5 Sold Products last month</p>
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding-top: 3px;">
+                                    <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
+                                        <table class="table my-0" id="dataTable">
+                                            <thead>
+                                                <tr style="text-align: center;background: #00492f;border-color: rgb(255,255,255);">
+                                                    <th></th>
+                                                    <th style="border-color: rgb(255,255,255);color: rgb(255,255,255);">Barcode</th>
+                                                    <th style="border-color: rgb(255,255,255);color: rgb(255,255,255);">Product</th>
+                                                    <th style="border-color: rgb(255,255,255);color: rgb(255,255,255);">Sales</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr style="background: var(--bs-green);color: rgb(255,255,255);">
+                                                    <td style="font-size: 20px;font-weight: bold;text-align: center;">1</td>
+                                                    <td style="font-size: 20px;font-weight: bold;text-align: center;">0x12</td>
+                                                    <td style="font-size: 20px;font-weight: bold;text-align: center;">Megatron X</td>
+                                                    <td style="color: var(--bs-card-bg);font-size: 20px;font-weight: bold;text-align: center;">P120.12</td>
+                                                </tr>
+                                                <tr style="background: rgba(28,200,138,0.7);text-align: center;">
+                                                    <td>2</td>
+                                                    <td>0x13</td>
+                                                    <td>Compus x46</td>
+                                                    <td style="color: var(--bs-table-color);">P20.9</td>
+                                                </tr>
+                                                <tr style="background: rgba(28,200,138,0.4);text-align: center;">
+                                                    <td>3</td>
+                                                    <td>0x14</td>
+                                                    <td>Sopusar v12</td>
+                                                    <td style="color: var(--bs-table-color);">P12,2</td>
+                                                </tr>
+                                                <tr style="background: rgba(28,200,138,0.1);text-align: center;">
+                                                    <td>4</td>
+                                                    <td>0x15</td>
+                                                    <td>Electricodes beta v1</td>
+                                                    <td style="color: var(--bs-table-color);">P5,3</td>
+                                                </tr>
+                                                <tr style="background: rgba(28,200,138,0.1);text-align: center;">
+                                                    <td>5</td>
+                                                    <td>0x16</td>
+                                                    <td>NoS v345</td>
+                                                    <td style="color: var(--bs-table-color);">P1.98</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr></tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="padding-bottom: 30px;">
+                            <div class="card shadow">
+                                <div class="card-header py-3">
+                                    <p class="text-primary m-0 fw-bold">Top 5 Customers last month</p>
+                                </div>
+                                <div class="card-body" style="padding-top: 3px;">
+                                    <div class="table-responsive table mt-2" id="dataTable-3" role="grid" aria-describedby="dataTable_info">
+                                        <table class="table my-0" id="dataTable">
+                                            <thead>
+                                                <tr style="text-align: center;background: #a77800;">
+                                                    <th></th>
+                                                    <th style="color: rgb(255,255,255);">ID</th>
+                                                    <th style="color: rgb(255,255,255);">Name</th>
+                                                    <th style="color: rgb(255,255,255);">Points</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr style="background: var(--bs-yellow);color: rgb(255,255,255);">
+                                                    <td style="font-size: 20px;font-weight: bold;text-align: center;">1</td>
+                                                    <td style="font-size: 20px;font-weight: bold;text-align: center;">0x12</td>
+                                                    <td style="font-size: 20px;font-weight: bold;text-align: center;">Israel Breta</td>
+                                                    <td style="color: var(--bs-card-bg);font-size: 20px;font-weight: bold;text-align: center;">120.12</td>
+                                                </tr>
+                                                <tr style="background: rgba(246,194,62,0.6);text-align: center;">
+                                                    <td>2</td>
+                                                    <td>0x13</td>
+                                                    <td>Sev Constantino</td>
+                                                    <td style="color: var(--bs-table-color);">20.9</td>
+                                                </tr>
+                                                <tr style="background: rgba(246,194,62,0.4);text-align: center;">
+                                                    <td>3</td>
+                                                    <td>0x14</td>
+                                                    <td>Adrian Mones</td>
+                                                    <td style="color: var(--bs-table-color);">12,2</td>
+                                                </tr>
+                                                <tr style="background: rgba(246,194,62,0.1);text-align: center;">
+                                                    <td>4</td>
+                                                    <td>0x15</td>
+                                                    <td>Karl Adriane Catalan</td>
+                                                    <td style="color: var(--bs-table-color);">5,3</td>
+                                                </tr>
+                                                <tr style="background: rgba(246,194,62,0.1);text-align: center;">
+                                                    <td>5</td>
+                                                    <td>0x16</td>
+                                                    <td>Kristian Adriane Grande</td>
+                                                    <td style="color: var(--bs-table-color);">1.98</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr></tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Starubikals 2024</span></div>
+                </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>

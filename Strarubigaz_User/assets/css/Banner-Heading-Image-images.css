@@ -1,0 +1,16 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.fas.fa-plus {
+  cursor: pointer;
+}
+
+.fas.fa-minus {
+  cursor: pointer;
+}
+
+.container-main::-webkit-scrollbar {
+  display: none;
+}
+
